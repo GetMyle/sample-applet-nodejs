@@ -1,0 +1,9 @@
+{{#if error}}
+    <div style="white-space: pre">{{error}}</div>
+{{else}}
+<ul>
+    {{#each records}}
+    <li>{{time}}: {{phrase}}</li>
+    {{/each}}
+<ul>
+{{/if}}

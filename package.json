@@ -1,0 +1,23 @@
+{
+  "name": "sample-applet-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "hapi": "^15.2.0",
+    "hawk": "^6.0.0",
+    "inert": "^4.0.2",
+    "lout": "^9.2.0",
+    "request": "^2.78.0",
+    "vision": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
